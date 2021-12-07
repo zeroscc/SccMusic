@@ -1,0 +1,109 @@
+.headimg {
+	width: 180px;
+	height: 180px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border: 1px solid #B2B2B2;
+	float: left;
+}
+.headimg img{
+	width: 180px;
+	height: 180px;
+	
+}
+.mine-info .btn1{
+	margin-right: 100px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	float: right;
+	color: #000000;
+	font-weight: 500;
+}
+.mine-info {
+	padding: 10px;
+	border-bottom: 2px solid #dddddd;
+}
+.mine-list {
+	margin-top: 10px ;
+}
+.mine-list .list-content {
+	font-size: 13px;
+	font-family:'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	color: #666666;
+	text-align: center;
+}
+.mine-current{
+	float: left;
+	width: 70px;
+	height: 50px;
+	border-left:1px solid white;
+	font-size: 20px;
+	font-family:'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	color: #666666;
+	text-align: center;
+}
+.mine-fans {
+	float: left;
+	width: 70px;
+	height: 50px;
+	font-size: 20px;
+	font-family:'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	color: #666666;
+	border-left: 1px solid #dddddd;
+	text-align: center;
+}
+.mine-follow {
+	float: left;
+	width: 70px;
+	height: 50px;
+	font-size: 20px;
+	font-family:'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	color: #666666;
+	border-left: 1px solid #dddddd;
+	text-align: center;
+}
+.mine-list > li> a:hover > div,.mine-list > li> a:hover > div >span{
+	color: #4baaff;
+}
+.mine-intro {
+	margin-top:10px ;
+	font-size: 13px;
+	font-family:'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	color: #666666;
+}
+.mine-thing {
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 60px;
+}
+.mine-content-box{
+	margin-left: 470px;
+	width: 700px;
+}
+#username {
+	font-size: 25px;
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}
+#gender {
+	font-size: 20px;
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	margin-left: 20px;
+}
+.mine-content {
+	margin-top: 40px;
+	margin-left: 260px;
+}
+.mine-music {
+	padding-left: 25px;
+
+}
+.played-info {
+	font-size: 13px;
+	font-family:'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	color: #666666;
+}
+.upload-url {
+    font-size: 13px;
+    float: right;
+	margin-right: 20px;
+}

@@ -1,0 +1,131 @@
+/* Music Page */
+
+.player-wrap {
+    padding: 0;
+    box-shadow: 0 3px 10px -3px rgba(0, 0, 0, .08);
+    overflow: hidden;
+    margin-top: 30px;
+    height: 66px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .14);
+}
+
+.box {
+    margin-top: 24px;
+}
+.opicon{
+	float: right;
+}
+.iconbtn{
+	background-color: white;
+	border: white;
+}
+.collecticon:hover,.collectedicon:hover,.addicon:hover,.downloadicon:hover{
+	color: rgb(0,161,214);
+	cursor:pointer;
+}
+#music-player {
+    margin: 0;
+    background-color: #fafafa;
+    background-image: -webkit-linear-gradient(top, #fff, #fafafa);
+    background-image: linear-gradient(180deg, #fff, #fafafa);
+    box-shadow: none;
+}
+.comment-send{
+	margin-top: 50px;
+	height: 70px;
+}
+.comment-send .user-face img{
+	width: 60px;
+	border-radius: 50px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+.comment-send textarea{
+	resize: none;
+	outline: none;
+	float: left;
+	margin-left: 10px;
+}
+.comment-send .comment-submit{
+	margin-left: 20px;
+	height: 70px;
+	width: 90px;
+	float: left;
+	font-size: 12px;
+	color: #000000;
+	font-weight: 500;
+	border-radius: 5px;
+}
+.comment-list{
+	margin-top: 10px;
+}
+.list-item{
+	border-top: 1px solid rgb(229,233,239);
+	padding-top: 20px;
+}
+.list-item .user-face img{
+	width: 60px;
+	border-radius: 50px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+.con .user a{
+	color: #6D757A;
+}
+.con p{
+	font-size: 15px;
+}
+.con >.info{
+	margin-left: 75px;
+}
+.info >span{
+	margin-right: 20px;
+}
+.info >.time{
+	font-size: 10px;
+	color: #99A2AA;
+}
+.info .likeicon{
+	font-size: 17px;
+}
+.info .comment-like{
+	font-size: 10px;
+	color: #99A2AA;
+}
+.info .comment-like:hover{
+	cursor:pointer;
+}
+.info .comment-like:hover .icon{
+	color: rgb(0,161,214);
+}
+.info .reply{
+	font-size: 10px;
+	color: #99A2AA;
+}
+.info .reply:hover{
+	font-size: 10px;
+	color: rgb(0,161,214);
+	cursor:pointer;
+}
+.reply-box{
+	margin-top: 5px;
+	margin-left: 50px;
+}
+.reply-box .reply-item a{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.reply-box .reply-item img{
+	width: 30px;
+	border-radius: 50px;
+}
+.reply-item >.info{
+	margin-left: 10px;
+}
+.reply-item .text-con{
+	font-size: 15px;
+}

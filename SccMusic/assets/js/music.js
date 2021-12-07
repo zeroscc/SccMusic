@@ -1,0 +1,10 @@
+$(function(){
+	$('#collect').click(function(){
+		$('#collect').css("display","none");
+		$('#collected').css("display","");
+	})
+	$('#collected').click(function(){
+		$('#collected').css("display","none");
+		$('#collect').css("display","");
+	})
+})
